@@ -7,7 +7,7 @@ var express     = require("express"),
 
 //APP CONFIG
 //mongoose.connect("mongodb://localhost/blogApp");
-mongoose.connect("mongodb://zia:Pathfinder01@ds163689.mlab.com:63689/blogapp");
+mongoose.connect("mongodb://zia:newyork01@ds163689.mlab.com:63689/blogapp");
 app.set("view engine", "ejs"); //need this for all apps
 app.use(express.static("public")); //need this for  custom ccs stylesheet 
 app.use(bodyParser.urlencoded({extended: true})); //need this for all apps
